@@ -7,15 +7,13 @@
     
     4.1. В самом начале:
         
-        `<?php require_once __DIR__ . '/smart-cpa.form.php'; ?>`
+        <?php require_once __DIR__ . '/smart-cpa.form.php'; ?>
         
     4.2. В местах, где необходимо установить форму:
     
-        `<div style="text-align:center"><?php echo $formHtml; ?></div>`
+        <div style="text-align:center"><?php echo $formHtml; ?></div>
         
     4.3. Перед `</body>`
         
-            `
             <?php echo $formStyle; ?>
             <?php echo $formJs; ?>
-            `
