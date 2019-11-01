@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . '/smart-cpa.form.php'; ?>
+<?php require_once __DIR__ . '/smart-cpa-form.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>

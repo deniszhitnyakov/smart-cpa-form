@@ -1,8 +1,8 @@
 <?php
-$config[ 'offerName' ] = 'Eco Slim'; // НАЗВАНИЕ ТОВАРА
-$config[ 'price' ] = 990;            // НОВАЯ ЦЕНА ТОВАРА
-$config[ 'currency' ] = 'руб';       // Валюта - НЕ СТАВИТЬ ТОЧКУ В КОНЦЕ!!!
-$config[ 'action' ] = 'process.php'; // Путь к файлу обработчика формы
+$config[ 'offerName' ] = 'Chocolate Slim';               // НАЗВАНИЕ ТОВАРА
+$config[ 'price' ] = 990;                                // НОВАЯ ЦЕНА ТОВАРА
+$config[ 'currency' ] = 'руб';                           // Валюта - НЕ СТАВИТЬ ТОЧКУ В КОНЦЕ!!!
+$config[ 'action' ] = 'process.php';                     // Путь к файлу обработчика формы
 
 $formHtml = <<<'FORM_HTML'
 <div class="order_form shadow">
